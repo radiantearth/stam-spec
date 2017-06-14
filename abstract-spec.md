@@ -16,7 +16,7 @@ only allow flat properties.
 | projection        | projection information | Projection              | CRS of the datasource in full WKT format. Should be a projection in the EPSG database, so all software can read it.                                                   | 
 | bbox              | pair of coordinates  | Bounding Box            | Pair of min and max coordinates in CRS units, (min_x, min_y, max_x, max_y)                  | 
 | footprint         | A geometry | Datasource footprint    | Describing the actual footprint of the imagery                                  | 
-| gsd               | number | Ground Spatial Distance | Average ground spatial distance (resolution) of the datasource imagery, expressed in meters | 
+| gsd               | number | Ground Sample Distance | Average ground sample distance (resolution) of the datasource imagery, expressed in meters. Is the distance between the centers of pixels on the ground. | 
 | acquisition_start | date and time | Acquisition Date Start  | First acquisition in UTC (Combined date and time representation)                    | 
 | acquisition_end   | date and time | Acquisition Date End    | Last acquisition in UTC (Combined date and time representation) (optional)          | 
 | sensor            | string (limited list) | Sensor                  | sensor information and sensor class e.g. List of possible platform sources limited to satellite, aircraft, UAV, balloon, kite, helikite, pole, and rover                                                         | 
