@@ -10,7 +10,7 @@ only allow flat properties.
 
 | element           | type info   | name                    | description                                                                                 | 
 |-------------------|--------|-------------------------|---------------------------------------------------------------------------------------------| 
-| uuid              | string of 16 octets | RFC 4122                | unique UUID v4                                                                              | 
+| uuid              | Universal Unique ID | ID                | unique ID, potentially link to file                                                                            | 
 | scene_id          | string, format defined by imagery provider | Scene id                | scene id from provider                                                                      |
 | scene_title       | optional string | Title                   | scene title from provider of image. If not present then fall back to scene_id (optional)                                                     |                                           |
 | projection        | projection information | Projection              | CRS of the datasource in full WKT format. Should be a projection in the EPSG database, so all software can read it.                                                   | 
