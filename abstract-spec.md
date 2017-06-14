@@ -10,8 +10,7 @@ only allow flat properties.
 |-------------------|--------|-------------------------|---------------------------------------------------------------------------------------------| 
 | uuid              | string | RFC 4122                | unique UUID v4                                                                              | 
 | scene_id          | string | Scene id                | scene id from provider                                                                      |
-| scene_title       | string | Title                   | scene title from provider of generated                                                      |
-| paths             | object | local and remote paths  | local and remote paths with related protocols                                               |
+| scene_title       | string | Title                   | scene title from provider of generated                                                      |                                           |
 | projection        | string | Projection              | CRS of the datasource in full WKT format                                                    | 
 | bbox              | array  | Bounding Box            | Pair of min and max coordinates in CRS units, (min_x, min_y, max_x, max_y)                  | 
 | footprint         | string | Datasource footprint    | WKT format, describing the actual footprint of the imagery                                  | 
