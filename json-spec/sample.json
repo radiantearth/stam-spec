@@ -1,61 +1,17 @@
 {
-  "uuid" : "02a791ba-154f-41de-a2a0-0f553098ac6d",
-  "scene_id" : "alpha-numeric-id from provider",
-  "scene_title" : "An scene from some satellite",
-  "paths" : {
-    "path_local" : "/path/to/file",
-    "path_local_protocol" : "nfs",
-    "path_remote" : "url://to/file",
-    "path_remote_protocol" : "s3"
-  },
+  "uuid" : "path/to/example.tif",
   "projection" : "PROJCS[\"NAD83 / Massachusetts Mainland\", ...",
   "bbox" : [-180,-90,180,90],
   "footprint" : "POLYGON((-180 -90, -180 90, 180 90, 180 -90, -180 -90))",
-  "gsd" : {
-    "sampling": 0.35,
-    "unit" : "m"
-  },
+  "gsd" : 0.35,
   "file_size" : 1024,
   "acquisition_start" : "2015-05-03T13:00:00.000",
   "acquisition_end" : "2015-05-04T13:00:00.000",
-  "sensor" : {
-    "sensor_type" : "satellite, aircraft, UAV, balloon, kite, helikite, pole, rover, etc ",
-    "sensor_class" : "multispectral, hyperspectral, thermal, ir, radar",
-    "sensor_platform_name" : "World View 4",
-    "sensor_platform_id" : "wv4"
-  },
-  "provider" : {
-    "provider_name" : "Digital Globe",
-    "provider_contact" : "someone@nasa.gov"
-  },
-  "license" : {
-    "license_name" : "Apache 2.0",
-    "license_desc" : "Short desc",
-    "license_url"  : "url://url/to/lic" 
-  },
-  "properties" : {
-      "md5" : "md5 checksum hash",
-      "bands" : {
-        "band_1" : {
-          "color" : "blue",
-          "wavelength" : "0.45-0.52",
-          "resolution" : "30m"
-        },
-        "band_2" : {
-          "color" : "green",
-          "wavelength" : "0.52-0.60",
-          "resolution" : "30m"
-        },
-        "band_3" : {
-          "color" : "red",
-          "wavelength" : "0.63-0.69",
-          "resolution" : "30m"
-        },
-        "band_4" : {
-          "color" : "near infrared",
-          "wavelength" : "0.76-0.90",
-          "resolution" : "30m"
-        }         
-      }
-  }
+  "title" : "An scene from some satellite",
+  "platform" : "satellite",
+  "provider" : "Digital Globe",
+  "contact" : "someone@nasa.gov",
+  "license" : "CC-BY"
+  "version" : "0.1"
+  "properties" : {}
 }
