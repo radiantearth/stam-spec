@@ -17,5 +17,5 @@ This document specifies the JSON instantiation of the [imagery metadata abstract
 | platform          | string | Type of imagery         | List of possible platform sources limited to satellite, aircraft, UAV, balloon, kite, helikite, pole, and rover       | 
 | provider          | string | Imagery Provider        | Provider/owner of the OIN bucket                                                            | 
 | contact           | string | Contact                 | Name and email address of the data provider                                                 | 
-| properties        | object | Properties              | Additional properties about the image (optional)                                            | 
+| license           | string (limited list) | Data license            | Data license name, must be one of the accepted licenses (TBD) 
 | version        | semantic versioning number | Spec Version              | The version of the imagery metadata fields, for testing/validation  | 
