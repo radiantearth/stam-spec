@@ -2,9 +2,7 @@
 
 ## Overview
 
-This repository contains a sub-folder of the various implementations of imagery specifications that are active in the world. Each sub-folder should
-have a valid json document of its latest implementation, as well as one or more documents discussing
-what the API handles and what choices were made in creating it. 
+This repository contains a sub-folder of the various implementations of imagery specifications that are active in the world. Each sub-folder should have a valid json document of its latest implementation, as well as one or more documents discussing. If it is not in json then another implementation file can be used (xml, etc) 
 
 To add an implementation create the following:
 
