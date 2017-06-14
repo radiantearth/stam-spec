@@ -22,5 +22,6 @@ only allow flat properties.
 | sensor            | string (limited list) | Sensor                  | sensor information and sensor class e.g. List of possible platform sources limited to satellite, aircraft, UAV, balloon, kite, helikite, pole, and rover                                                         | 
 | provider          | string | Imagery Provider        | Provider/owner of the data                                                                  |
 | license           | string (limited list) | Data license            | Data license name, must be one of the accepted licenses (TBD)                                                            | 
+| version        | semantic versioning number | Spec Version              | The version of the imagery metadata fields, for testing/validation  | 
 | properties        | extension | Properties              | Additional properties about the image (optional).                                            | 
 
