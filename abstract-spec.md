@@ -11,8 +11,7 @@ only allow flat properties.
 | element           | type info   | name                    | description                                                                                 | 
 |-------------------|--------|-------------------------|---------------------------------------------------------------------------------------------| 
 | uuid              | Universal Unique ID | ID                | unique ID, potentially link to file                                                                            | 
-| scene_id          | string, format defined by imagery provider | Scene id                | scene id from provider                                                                      |
-| scene_title       | optional string | Title                   | scene title from provider of image. If not present then fall back to scene_id (optional)                                                     |                                           |
+| title       | optional string | Title                   | scene title from provider of image. Can be the ID of the image provider                                                     |                                           |
 | projection        | projection information | Projection              | CRS of the datasource in full WKT format. Should be a projection in the EPSG database, so all software can read it.                                                   | 
 | bbox              | pair of coordinates  | Bounding Box            | Pair of min and max coordinates in CRS units, (min_x, min_y, max_x, max_y)                  | 
 | footprint         | A geometry | Datasource footprint    | Describing the actual footprint of the imagery                                  | 
