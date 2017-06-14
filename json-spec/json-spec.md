@@ -19,3 +19,4 @@ This document specifies the JSON instantiation of the [imagery metadata abstract
 | contact           | string | Contact                 | Name and email address of the data provider                                                 | 
 | license           | string (limited list) | Data license            | Data license name, must be one of the accepted licenses (TBD) 
 | version        | semantic versioning number | Spec Version              | The version of the imagery metadata fields, for testing/validation  | 
+| properties        | object | Properties              | Additional properties about the image (optional)                                            | 
