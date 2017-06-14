@@ -18,9 +18,9 @@ only allow flat properties.
 | gsd               | number | Ground Sample Distance | Average ground sample distance (resolution) of the datasource imagery, expressed in meters. Is the distance between the centers of pixels on the ground. | 
 | acquisition_start | date and time | Acquisition Date Start  | First acquisition in UTC (Combined date and time representation)                    | 
 | acquisition_end   | date and time | Acquisition Date End    | Last acquisition in UTC (Combined date and time representation) (optional)          | 
-| sensor            | string (limited list) | Sensor                  | sensor information and sensor class e.g. List of possible platform sources limited to satellite, aircraft, UAV, balloon, kite, helikite, pole, and rover                                                         | 
+| platform            | string (limited list) | Sensor                  | sensor information and sensor class e.g. List of possible platform sources limited to satellite, aircraft, UAV, balloon, kite, helikite, pole, and rover                                                         | 
 | provider          | string | Imagery Provider        | Provider/owner of the data                                                                  |
 | license           | string (limited list) | Data license            | Data license name, must be one of the accepted licenses (TBD)                                                            | 
 | version        | semantic versioning number | Spec Version              | The version of the imagery metadata fields, for testing/validation  | 
-| properties        | extension | Properties              | Additional properties about the image (optional).                                            | 
+
 
