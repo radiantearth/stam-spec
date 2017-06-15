@@ -11,7 +11,7 @@ All contributions should be done with pull requests, and should be informed by r
 
 ## In this repo
 
-[abstract-spec.md](abstract-spec.md) contains the core fields and their explanation. The [json folder](./json) contains the json instantiation of the abstract spec.
+[abstract-spec.md](abstract-spec.md) contains the core fields and their explanation. The [json folder](./json-spec) contains the json instantiation of the abstract spec.
 
 # Using Radiant Imagery Metadata Schema v0.1
 
