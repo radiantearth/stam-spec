@@ -1,0 +1,49 @@
+{
+    "_links": {
+        "_self": "https://api.planet.com/data/v1/item-types/PSScene4Band/items/20170129_181030_0e1f",
+        "assets": "https://api.planet.com/data/v1/item-types/PSScene4Band/items/20170129_181030_0e1f/assets/",
+        "thumbnail": "https://api.planet.com/data/v1/item-types/PSScene4Band/items/20170129_181030_0e1f/thumb"
+    },
+    "_permissions": ["assets.basic_analytic_rpc_nitf:download", "assets.analytic_xml:download", "assets.basic_analytic_dn:download", "assets.basic_analytic_dn_xml_nitf:download", "assets.basic_analytic_dn_nitf:download", "assets.basic_analytic_xml:download", "assets.basic_analytic_nitf:download", "assets.basic_analytic_rpc:download", "assets.analytic_dn:download", "assets.basic_udm:download", "assets.basic_analytic_dn_rpc_nitf:download", "assets.analytic:download", "assets.analytic_dn_xml:download", "assets.basic_analytic_dn_xml:download", "assets.basic_analytic_dn_rpc:download", "assets.basic_analytic_xml_nitf:download", "assets.basic_analytic:download", "assets.udm:download"],
+    "geometry": {
+        "coordinates": [
+            [
+                [-122.30815017918279, 37.48803556600078],
+                [-122.59750210987286, 37.53886953975636],
+                [-122.57668753326814, 37.61353720725723],
+                [-122.2880486090892, 37.562818007035595],
+                [-122.29069133913599, 37.55349473163378],
+                [-122.2896974751147, 37.55332028290057],
+                [-122.30815017918279, 37.48803556600078]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "id": "20170129_181030_0e1f",
+    "properties": {
+        "acquired": "2017-01-29T18:10:30.637146Z",
+        "anomalous_pixels": 0,
+        "cloud_cover": 0.13,
+        "columns": 9107,
+        "epsg_code": 32610,
+        "ground_control": true,
+        "gsd": 4,
+        "instrument": "PS2",
+        "item_type": "PSScene4Band",
+        "origin_x": 535557,
+        "origin_y": 4163022.0,
+        "pixel_resolution": 3,
+        "provider": "planetscope",
+        "published": "2017-01-30T21:53:07Z",
+        "quality_category": "standard",
+        "rows": 4595,
+        "satellite_id": "0e1f",
+        "strip_id": "388565",
+        "sun_azimuth": 144.4,
+        "sun_elevation": 26.6,
+        "updated": "2017-05-09T03:33:56Z",
+        "usable_data": 0,
+        "view_angle": 0
+    },
+    "type": "Feature"
+}
