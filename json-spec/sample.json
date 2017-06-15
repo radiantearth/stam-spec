@@ -5,13 +5,13 @@
   "footprint" : "POLYGON((-180 -90, -180 90, 180 90, 180 -90, -180 -90))",
   "gsd" : 0.35,
   "file_size" : 1024,
-  "acquisition_start" : "2015-05-03T13:00:00.000",
-  "acquisition_end" : "2015-05-04T13:00:00.500",
+  "acquisition_start" : "2015-05-03T13:00:00.000Z",
+  "acquisition_end" : "2015-05-04T13:00:00.500Z",
   "title" : "An scene from some satellite",
   "platform" : "satellite",
   "provider" : "NASA",
   "contact" : "someone@nasa.gov",
   "license" : "CC-BY",
-  "version" : "0.1",
+  "version" : "0.1.0",
   "properties" : {}
 }
