@@ -1,0 +1,54 @@
+{
+  "request_id": "d63cc009-08c9-4971-8fca-feef30892f89",
+  "request_time": "2015-07-28T07:09:00Z",
+  "status": 200,
+  "messages": null,
+  "meta": null,
+  "payload": [
+    {
+      "cloud_coverage": 13.05,
+      "id": "kPgEB-jET3m-bGL7GnMf_g",
+      "owner_scene_id": "LC80070462015205LGN00",
+      "satellite_id": 39084,
+      "acquired": "2015-07-24T15:01:46.942Z",
+      "sensor_platform": "landsat-8",
+      "platform": "landsat-8",
+      "owner": "usgs",
+      "average_scene_altitude": 6.1763337580265,
+      "sun_elevation": 65.96795829,
+      "solar_time_of_day_acquired": "10:24:05",
+      "earth_sun_distance": 1.015832,
+      "season": "summer",
+      "sun_azimuth": 86.45955272,
+      "tiled": "2015-07-27T18:24:56.654Z",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.504411435612,
+              19.540567507909
+            ],
+            [
+              -68.740398105958,
+              19.171689503863
+            ],
+            [
+              -68.326154332116,
+              20.910187777123
+            ],
+            [
+              -70.11166841933,
+              21.277311632104
+            ],
+            [
+              -70.504411435612,
+              19.540567507909
+            ]
+          ]
+        ]
+      },
+      "processed": "2015-07-25T00:47:23.000Z"
+    }
+  ]
+}
