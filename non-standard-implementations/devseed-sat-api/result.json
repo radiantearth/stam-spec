@@ -1,0 +1,141 @@
+{
+      "scene_id": "LC81871152017287LGN00",
+      "product_id": "LC08_L1GT_187115_20171014_20171014_01_RT",
+      "satellite_name": "landsat-8",
+      "cloud_coverage": 40.13,
+      "date": "2017-10-14",
+      "thumbnail": "https://earthexplorer.usgs.gov/browse/landsat_8/2017/187/115/LC08_L1GT_187115_20171014_20171014_01_RT.jpg",
+      "data_geometry": {
+        "type": "Polygon",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG:8.9:4326"
+          }
+        },
+        "coordinates": [
+          [
+            [
+              -30.57458,
+              -76.89673
+            ],
+            [
+              -36.50434,
+              -75.8168
+            ],
+            [
+              -41.55898,
+              -77.09246
+            ],
+            [
+              -35.43463,
+              -78.28284
+            ],
+            [
+              -30.57458,
+              -76.89673
+            ]
+          ]
+        ]
+      },
+      "download_links": {
+        "usgs": "https://earthexplorer.usgs.gov/download/12864/LC81871152017287LGN00/STANDARD/EE",
+        "aws_s3": [
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_ANG.txt",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B1.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B2.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B3.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B4.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B5.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B6.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B7.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B8.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B9.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B10.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B11.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_BQA.TIF",
+          "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_MTL.txt"
+        ],
+        "google": [
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_ANG.txt",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B1.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B2.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B3.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B4.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B5.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B6.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B7.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B8.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B9.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B10.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_B11.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_BQA.TIF",
+          "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_MTL.txt"
+        ]
+      },
+      "aws_thumbnail": "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/LC08_L1GT_187115_20171014_20171014_01_RT_thumb_large.jpg",
+      "aws_index": "https://landsat-pds.s3.amazonaws.com/c1/L8/187/115/LC08_L1GT_187115_20171014_20171014_01_RT/index.html",
+      "google_index": "https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/LC08/187/115/LC08_L1GT_187115_20171014_20171014_01_RT",
+      "browseAvailable": "Y",
+      "browseURL": "https://earthexplorer.usgs.gov/browse/landsat_8/2017/187/115/LC08_L1GT_187115_20171014_20171014_01_RT.jpg",
+      "sceneID": "LC81871152017287LGN00",
+      "LANDSAT_PRODUCT_ID": "LC08_L1GT_187115_20171014_20171014_01_RT",
+      "sensor": "OLI_TIRS",
+      "acquisitionDate": "2017-10-14",
+      "dateUpdated": "2017-10-14",
+      "path": 187,
+      "row": 115,
+      "upperLeftCornerLatitude": -75.8168,
+      "upperLeftCornerLongitude": -36.50434,
+      "upperRightCornerLatitude": -76.89673,
+      "upperRightCornerLongitude": -30.57458,
+      "lowerLeftCornerLatitude": -77.09246,
+      "lowerLeftCornerLongitude": -41.55898,
+      "lowerRightCornerLatitude": -78.28284,
+      "lowerRightCornerLongitude": -35.43463,
+      "sceneCenterLatitude": -77.04835,
+      "sceneCenterLongitude": -36.01902,
+      "cloudCover": 3,
+      "cloudCoverFull": 40.13,
+      "dayOrNight": "DAY",
+      "sunElevation": 14.17646035,
+      "sunAzimuth": 64.19752402,
+      "receivingStation": null,
+      "sceneStartTime": "2017:287:10:02:11.7992620",
+      "sceneStopTime": "2017:287:10:02:43.5692600",
+      "imageQuality1": 9,
+      "DATA_TYPE_L1": "L1GT",
+      "cartURL": "https://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_C1&ordered=LC81871152017287LGN00",
+      "ROLL_ANGLE": 0,
+      "GEOMETRIC_RMSE_MODEL": 0,
+      "GEOMETRIC_RMSE_MODEL_X": 0,
+      "GEOMETRIC_RMSE_MODEL_Y": 0,
+      "FULL_PARTIAL_SCENE": "FULL",
+      "NADIR_OFFNADIR": "NADIR",
+      "PROCESSING_SOFTWARE_VERSION": "LPGS_2.7.0",
+      "CPF_NAME": "LC08CPF_20171001_20171231_01.01",
+      "RLUT_FILE_NAME": "LC08RLUT_20150303_20431231_01_12.h5",
+      "BPF_NAME_OLI": "LO8BPF20171014093636_20171014105714.01",
+      "BPF_NAME_TIRS": "LT8BPF20171006060316_20171006082423.01",
+      "GROUND_CONTROL_POINTS_MODEL": "-1",
+      "GROUND_CONTROL_POINTS_VERSION": "4",
+      "DATE_L1_GENERATED": "2017-10-14 07:57:48",
+      "TIRS_SSM_MODEL": "PRELIMINARY",
+      "COLLECTION_NUMBER": 1,
+      "COLLECTION_CATEGORY": "RT",
+      "CLOUD_COVER_LAND": 3.99,
+      "UTM_ZONE": "0",
+      "MAP_PROJECTION_L1": "PS",
+      "DATUM": "WGS84",
+      "GRID_CELL_SIZE_REFLECTIVE": "30",
+      "GRID_CELL_SIZE_PANCHROMATIC": "15",
+      "GRID_CELL_SIZE_THERMAL": "30",
+      "ORIENTATION": "NORTH_UP",
+      "PANCHROMATIC_LINES": "13621",
+      "PANCHROMATIC_SAMPLES": "13841",
+      "REFLECTIVE_LINES": "6811",
+      "REFLECTIVE_SAMPLES": "6921",
+      "RESAMPLING_OPTION": "CUBIC_CONVOLUTION",
+      "THERMAL_LINES": "6811",
+      "THERMAL_SAMPLES": "6921"
+    }
