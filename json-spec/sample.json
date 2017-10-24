@@ -10,10 +10,10 @@
     "start_date": "2015-05-03T13:00:00.000Z",
     "end_date": "2015-05-03T14:00:00.000Z",
     "provider": "http://www.digitalglobe.com",
-    "license": "CC-BY-4.0",
-    "links": {
-      "metadata": "path/to/metadata_file.json",
-      "thumbnail": "path/to/thumbnail.png"
-    }
+    "license": "CC-BY-4.0"
+  },
+  "links": {
+    "metadata": "path/to/metadata_file.json",
+    "thumbnail": "path/to/thumbnail.png"
   }
 }
