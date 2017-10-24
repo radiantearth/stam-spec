@@ -1,22 +1,15 @@
 ## Intro
 
-This document specifies the JSON instantiation of the [imagery metadata abstract spec](../abstract-spec.md). 
+This document specifies the JSON instantiation of the core [imagery metadata abstract spec](../abstract-spec.md). 
 
 ## Specification Description 
 
-| element           | type   | name                    | description                                                                                 | 
-|-------------------|--------|-------------------------|---------------------------------------------------------------------------------------------| 
-| uuid              | string | File                    | unique URI to file                                                                          | 
-| projection        | string | Projection              | CRS of the datasource in full WKT format                                                    | 
-| bbox              | array  | Bounding Box            | Pair of min and max coordinates in CRS units, (min_x, min_y, max_x, max_y)                  | 
-| footprint         | string | Datasource footprint    | WKT format, describing the actual footprint of the imagery                                  | 
-| gsd               | number | Ground Sample Distance | Average ground sample distance (resolution) of the datasource imagery, expressed in meters | 
-| acquisition_start | string | Acquisition Date Start  | First date of acquisition in UTC (Combined date and time representation)                    | 
-| acquisition_end   | string | Acquisition Date End    | Last date of acquisition in UTC (Combined date and time representation) (optional)          | 
-| title             | string | Title                   | Human friendly title of the image                                                           | 
-| platform          | string | Type of imagery         | List of possible platform sources limited to satellite, aircraft, UAV, balloon, kite, helikite, pole, and rover       | 
-| provider          | string | Imagery Provider        | Provider/owner of the OIN bucket                                                            | 
-| contact           | string | Contact                 | Name and email address of the data provider                                                 | 
-| license           | string (limited list) | Data license            | Data license name, must be one of the accepted licenses (TBD) 
-| version        | semantic versioning number | Spec Version              | The version of the imagery metadata fields, for testing/validation  | 
-| properties        | object | Properties              | Additional properties about the image (optional)                                            | 
+| element         | type info       | name                       | description                                            | 
+|-----------------|-----------------|----------------------------|------------------------------------------------------------------| 
+| id              | string          | Provider ID                | Provider ID for the item                       | 
+| geometry        | geojson         | Geometry                   | Bounding Box + Footprint of the item in lat/long (EPSG 4326)
+| start_date      | date and time   | Date Start                 | First date/time in UTC (Combined date and time representation)    | 
+| end_date        | date and time   | Date End                   | Last date/time in UTC (Combined date and time representation)          | 
+| provider        | string          | Provider  (optional)       | Provider name  |
+| license         | string          | Data license (optional)    | Item's license name based on SPDX License List or following guidlines for non-SPDX licenses |
+| links           | dict            | Resource links             | Dictionary of links to resources, could be download or other URLs (self and thumbnail required) |
