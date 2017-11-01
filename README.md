@@ -1,18 +1,29 @@
 ## About
 
-This repository aims to standardize imagery metadata to work with remotely-sensed imagery. It focuses on the core abstract metadata fields, as well as the simpler instantiations of those fields (json, embedded in geotiff tiff tags, etc). The abstract fields can also be used to define API responses. This spec aims to be a lowest common denominator of the minimal metadata to help machines and humans understand the source of imagery. Extension mechanisms will enable providers to add in more information if they so choose. 
+The Spatio-Temporal Asset Metadata aims to standardize common fields to search remotely-sensed imagery and other geospatial assets. It is a complementary specification to Spatio-Temporal Asset Catalog - indeed most every item of those catalogs will
+expose its Spatio-Temporal Asset Metadata. 
 
-This work started as the [Open Imagery Network Metadata](https://github.com/openimagerynetwork/oin-metadata-spec) spec, but is evolving to be more generic and flexible. Ideally the OIN metadata spec will simply be a compatible version of this metadata, with a constraint that data license must be a single, open data license.
+The metadata fields are selected primary for search, and cross-catalog compatibility. In time a set of 'extensions' will
+emerge to better specify and search certain types of assets, but the main goal is to enable a baseline of standardization.
+Providers of imagery are also able to extend to the fields they care about.
+
+This repository contains the 'abstract' specification of the core fields and their explanation. The JSON specification is 
+currently being evolved in the [stac-spec](https://github.com/radiantearth/stac-spec) repo, so that it stays in line with
+the catalog as a whole. This repo is maintained independently to emphasize that the core fields can be re-used in other 
+contexts, like potentially embedded in GeoTIFFss, so that [cloud optimized geotiffs](http://cogeo.org) can be more 
+self-describing. So the repo may lag a bit behind the latest.
+
+## Background
+
+This work started as the [Open Imagery Network Metadata](https://github.com/openimagerynetwork/oin-metadata-spec) spec, but is evolving to be more generic and flexible. Ideally the OIN metadata spec will simply be a compatible version of this metadata, with a constraint that data license must be a single, open data license. Additional work on the spec was done at the 
+[stac boulder sprint](https://github.com/radiantearth/boulder-sprint)
 
 ## Contributing
 
-All contributions should be done with pull requests, and should be informed by real, working software. This repository also contains a ['non-standard-implementations'](./non-standard-implementations) folder that gathers the existing implementations in the real world, so that everyone can see what others have done in the world so far.
+All contributions should be done with pull requests, and should be informed by real, working software. 
 
 
 ## In this repo
 
-[abstract-spec.md](abstract-spec.md) contains the core fields and their explanation. The [json folder](./json-spec) contains the json instantiation of the abstract spec.
+[abstract-spec.md](abstract-spec.md) contains the core fields and their explanations. 
 
-# Using Radiant Imagery Metadata Schema v0.1
-
-The use patterns are very much still evolving. But the first use is leveraging the [json imagery metadata](./json/json-spec.md) as a sidecar file to an image file. An image file is generally an RGB GeoTIFF (but could be multiband or single band data), in an online storage location. The recommended format is a [cloud-optimized GeoTIFF](https://trac.osgeo.org/gdal/wiki/CloudOptimizedGeoTIFF), stored on an object store that supports HTTP Range queries for efficient cloud access.
