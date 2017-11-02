@@ -1,7 +1,8 @@
 ## About
 
-The Spatio-Temporal Asset Metadata aims to standardize common fields to search remotely-sensed imagery and other geospatial assets. It is a complementary specification to Spatio-Temporal Asset Catalog - indeed most every item of those catalogs will
-expose its Spatio-Temporal Asset Metadata. 
+The SpatioTemporal Asset Metadata spec aims to standardize common fields to search remotely-sensed imagery and other 
+geospatial assets. It is a complementary specification to the SpatioTemporal Asset Catalog - indeed most every item of those 
+catalogs will expose its SpatioTemporal Asset Metadata. 
 
 The metadata fields are selected primary for search, and cross-catalog compatibility. In time a set of 'extensions' will
 emerge to better specify and search certain types of assets, but the main goal is to enable a baseline of standardization.
